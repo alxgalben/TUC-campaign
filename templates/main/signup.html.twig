@@ -1,0 +1,125 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}TUC | Inscrie-te in campanie{% endblock %}
+{% block body %}
+<div class=" page">
+    {% include 'reusable_templates/header.html.twig' %}
+    <main class="signup-page">
+        <div class="inner" >
+            <!-- Rules content start-->
+            <div class="signup">
+                <div class="signup__heading common-heading">
+                    <h1>ÎNSCRIE BON</h1>
+                    <p>Înscrie bonul tău mai jos și bucură-te de distracție cu TUC la <strong>Neversea</strong>!</p>
+                </div>
+                <div class="signup__form">
+                    <div class="form-wrapper has-loader">
+                        <form id="registerForm" autocomplete="on">
+                            <div class="error-messages"></div>
+                            <div class="form-group">
+                                <label for="phone">număr telefon</label>
+                                <input type="text" class="form-control" name="phone" id="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="store">magazin</label>
+                                <div class="select-wrapper">
+                                    <select name="store" id="store" class="form-control">
+                                        <option value="" disabled selected hidden>&nbsp;</option>
+                                        <option value="auchan">Auchan</option>
+                                        <option value="carrefour">Carrefour</option>
+                                        <option value="cora">Cora</option>
+                                        <option value="kaufland">Kaufland</option>
+                                        <option value="mega">Mega Image</option>
+                                        <option value="metro">Metro</option>
+                                        <option value="penny">Penny</option>
+                                        <option value="profi">Profi</option>
+                                        <option value="selgros">Selgros</option>
+                                        <option value="altele">Altele</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="receiptNumber">număr bon fiscal</label>
+                                <div class="wrapper-number-receipt">
+                                    <input type="text" name="receiptNumber" id="receiptNumber"
+                                           class="form-control top-input" required>
+                                    <div class="info-wrapper">
+                                        <img src="{{ asset("images/signup/info.png") }}" alt="question" width="24"
+                                             height="24" class="open-receipt-modal">
+                                    </div>
+                                    <div id="receiptModal">
+                                        <img class="receipt-bon" src="{{ asset("images/bonuri/Auchan.png") }}" alt="receipt" width="238"
+                                             height="485">
+                                        <div class="closeModal">
+                                            <img src="{{ asset("images/signup/close-button.png") }}" alt="close-button" width="40" height="40">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">dată bon fiscal</label>
+                                <input type="text" class="form-control" name="date" id="date" readonly="readonly">
+                            </div>
+                            <div class="checkbox-group first-check">
+                                <input type="checkbox" id="age" name="age">
+                                <label for="age">Declar că am peste 18 ani</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="terms" name="terms">
+                                <label for="terms">Am citit și sunt de acord cu <a href="{{ path("terms") }}">Termenii și
+                                        condițiile</a></label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="rule" name="rule" required>
+                                <label for="rule">Am citit și sunt de acord cu <a href="{{ path("rules") }}">regulamentul</a>
+                                    campaniei promoționale</label>
+                            </div>
+                            <div class="form-group form-group-recaptcha">
+                                <div class="g-recaptcha" data-sitekey="6LdiUIQaAAAAAOYPSI108lCbBMjmID5Bh9ULOVvc"></div>
+                            </div>
+                            <div class="form-action">
+                                <input type="submit" value="Trimite Bon" data-category="Sectiune Inscrie bon"
+                                       data-label="Click - Trimite" class="primary-button-biscuits" id="form-submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal campaign-overlay" id="campaignModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content campaign-overlay__container">
+                        <div class="modal-header">
+                            <div class="close-modal">
+                                <img src="{{ asset("images/signup/overlay-close.png") }}" alt="close-modal" width="32" height="32">
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="message">
+                                <div class="message__image">
+                                    <img src="{{ asset("images/signup/campaign-image.png") }}" alt="tuc neversea campaign" width="506" height="193">
+                                </div>
+                                <div class="message__text">
+                                    <p>Campania “TUCuCine la <strong>Neversea</strong>?” s-a încheiat pe data de 31.05.2023. TUC îți mulțumește pentru
+                                        participare și te așteaptă la următoarele campanii promoționale!</p>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Rules content end-->
+        </div>
+    </main>
+    {% include 'reusable_templates/footer.html.twig' %}
+</div>
+{% endblock %}

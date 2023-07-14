@@ -1,0 +1,76 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}TUC | Politica de cookies{% endblock %}
+{% block body %}
+<div class="page">
+    {% include 'reusable_templates/header.html.twig' %}
+    <main class="rules-page brand-background cookie-policy-page">
+        <div class="inner" >
+            <!-- Rules content start-->
+            <div class="campaign-legal">
+                <div class="campaign-legal__heading common-heading">
+                    <h1>Politica de cookies</h1>
+                </div>
+                <div class="campaign-legal__content">
+                    <div class="campaign-legal__content__text">
+                        <div class="text-section">
+                            <p>Un cookie este un fisier text de mici dimensiuni, care va fi stocat pe calculatorul sau dispozitivul
+                                mobil al dvs. atunci cand vizitati un website. Ulterior, cookie-urile sunt trimise inapoi la
+                                website-ul care le-a generat, la fiecare vizita subsecventa, sau la alt website care recunoaste
+                                acele cookies, pentru a elabora un istoric al activitatii dvs. online. Cookie-urile de pe acest
+                                website pot fi:</p>
+
+                            <ul class="list-marker list-style-disc">
+                                <li> Sterse automat dupa fiecare vizita (Cookies de sesiune) sau pastrate in timpul multipelor
+                                    vizite (Cokies persistente);
+                                </li>
+                                <li> Livrate in contextul primei parti (stabilit de noi) sau al unei terte parti (stabilit de alt
+                                    website)
+                                </li>
+                            </ul>
+                            <p> Pe acest website, noi si tertele parti utilizam cookie-uri in diferite scopuri incluzand:
+                                facilitarea navigarii, personalizarea continutului, personalizarea reclamelor in functie de
+                                interesele dvs. si masurarea utilizarii site-ului. In mod specific, utilizam urmatoarele
+                                cookies: </p>
+
+                            <!-- OneTrust Cookies List start -->
+                            <div id="ot-sdk-cookie-policy"></div>
+                            <!-- OneTrust Cookies List end -->
+
+                        </div>
+
+                        <div class="text-section">
+                            <h3>THIRD PARTY WEBSITES' COOKIES</h3>
+                            <p>
+                                Atunci cand utilizati website-ul puteti regasi continut integrat sau puteti fi redirectionati catre
+                                alte website-uri pentru anumite activitati. Aceste website-uri si continutul integrat pot utiliza
+                                propriile cookies. Nu detinem controlul asupra plasarii de cookies de catre alte website-uri, chiar
+                                daca sunteti directionati catre ele de pe website-ul nostru.
+                            </p>
+                            <p>Instrumentul Preferinte Cookies poate fi utilizat pentru a va personaliza preferintele de cookies.
+                                Instrumentul va inregistra consimtamantul dvs. cu privire la Politica de cookies si il va solicita
+                                din nou, la fiecare 12 luni, pentru a asigura ca sunteti la curent cu modificarile la Politica de
+                                cookies. Instrumentul nostru controleaza Performanta, Functionalitatea si Targetarea cookie-urilor
+                                implementate de noi. Cookie-urile Strict Necesare nu pot fi dezactivate si instrumentul nu poate fi
+                                folosit pentru a bloca cookies de pe website-uri terte </p>
+                            <p>Multe dintre cookie-urile utilizate pe website-ul nostru pot fi activate sau deazctivate prin
+                                browserul dvs. Pentru a face asta, urmariti instructiunile localizate de obicei in meniurile de
+                                “Help/Ajutor” “Tools/Unelte” sau “Edit/Editare” din browserul dvs. Va atentionam ca dezactivarea
+                                unui cookie sau a unei categorii de cookies nu sterge cookie-ul din browserul dvs., cu exceptia
+                                cazului in care finalizati manual prin functionalitatea browser-ului.</p>
+                            <!-- OneTrust Cookies Settings button start -->
+                            <button id="ot-sdk-btn" class="ot-sdk-show-settings"> Cookie Settings</button>
+                            <!-- OneTrust Cookies Settings button end -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Rules content end-->
+        </div>
+    </main>
+
+{% include 'reusable_templates/footer.html.twig' %}
+</div>
+{% endblock %}

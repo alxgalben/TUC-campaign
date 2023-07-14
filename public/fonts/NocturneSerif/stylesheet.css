@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Blackitalic.eot');
+    src: url('NocturneSerif-Blackitalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Blackitalic.woff2') format('woff2'),
+        url('NocturneSerif-Blackitalic.woff') format('woff'),
+        url('NocturneSerif-Blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Bolditalic.eot');
+    src: url('NocturneSerif-Bolditalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Bolditalic.woff2') format('woff2'),
+        url('NocturneSerif-Bolditalic.woff') format('woff'),
+        url('NocturneSerif-Bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-ExtraBold.eot');
+    src: url('NocturneSerif-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-ExtraBold.woff2') format('woff2'),
+        url('NocturneSerif-ExtraBold.woff') format('woff'),
+        url('NocturneSerif-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Black.eot');
+    src: url('NocturneSerif-Black.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Black.woff2') format('woff2'),
+        url('NocturneSerif-Black.woff') format('woff'),
+        url('NocturneSerif-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Bold.eot');
+    src: url('NocturneSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Bold.woff2') format('woff2'),
+        url('NocturneSerif-Bold.woff') format('woff'),
+        url('NocturneSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-ExtraBolditalic.eot');
+    src: url('NocturneSerif-ExtraBolditalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-ExtraBolditalic.woff2') format('woff2'),
+        url('NocturneSerif-ExtraBolditalic.woff') format('woff'),
+        url('NocturneSerif-ExtraBolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Regular.eot');
+    src: url('NocturneSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Regular.woff2') format('woff2'),
+        url('NocturneSerif-Regular.woff') format('woff'),
+        url('NocturneSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-ExtraLightitalic.eot');
+    src: url('NocturneSerif-ExtraLightitalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-ExtraLightitalic.woff2') format('woff2'),
+        url('NocturneSerif-ExtraLightitalic.woff') format('woff'),
+        url('NocturneSerif-ExtraLightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Thin.eot');
+    src: url('NocturneSerif-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Thin.woff2') format('woff2'),
+        url('NocturneSerif-Thin.woff') format('woff'),
+        url('NocturneSerif-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-SemiBolditalic.eot');
+    src: url('NocturneSerif-SemiBolditalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-SemiBolditalic.woff2') format('woff2'),
+        url('NocturneSerif-SemiBolditalic.woff') format('woff'),
+        url('NocturneSerif-SemiBolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Light.eot');
+    src: url('NocturneSerif-Light.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Light.woff2') format('woff2'),
+        url('NocturneSerif-Light.woff') format('woff'),
+        url('NocturneSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif ExtraThin';
+    src: url('NocturneSerif-ExtraThinitalic.eot');
+    src: url('NocturneSerif-ExtraThinitalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-ExtraThinitalic.woff2') format('woff2'),
+        url('NocturneSerif-ExtraThinitalic.woff') format('woff'),
+        url('NocturneSerif-ExtraThinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Lightitalic.eot');
+    src: url('NocturneSerif-Lightitalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Lightitalic.woff2') format('woff2'),
+        url('NocturneSerif-Lightitalic.woff') format('woff'),
+        url('NocturneSerif-Lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-ExtraLight.eot');
+    src: url('NocturneSerif-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-ExtraLight.woff2') format('woff2'),
+        url('NocturneSerif-ExtraLight.woff') format('woff'),
+        url('NocturneSerif-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-SemiBold.eot');
+    src: url('NocturneSerif-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-SemiBold.woff2') format('woff2'),
+        url('NocturneSerif-SemiBold.woff') format('woff'),
+        url('NocturneSerif-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Italic.eot');
+    src: url('NocturneSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Italic.woff2') format('woff2'),
+        url('NocturneSerif-Italic.woff') format('woff'),
+        url('NocturneSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Medium.eot');
+    src: url('NocturneSerif-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Medium.woff2') format('woff2'),
+        url('NocturneSerif-Medium.woff') format('woff'),
+        url('NocturneSerif-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Mediumitalic.eot');
+    src: url('NocturneSerif-Mediumitalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Mediumitalic.woff2') format('woff2'),
+        url('NocturneSerif-Mediumitalic.woff') format('woff'),
+        url('NocturneSerif-Mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif';
+    src: url('NocturneSerif-Thinitalic.eot');
+    src: url('NocturneSerif-Thinitalic.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-Thinitalic.woff2') format('woff2'),
+        url('NocturneSerif-Thinitalic.woff') format('woff'),
+        url('NocturneSerif-Thinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nocturne Serif ExtraThin';
+    src: url('NocturneSerif-ExtraThin.eot');
+    src: url('NocturneSerif-ExtraThin.eot?#iefix') format('embedded-opentype'),
+        url('NocturneSerif-ExtraThin.woff2') format('woff2'),
+        url('NocturneSerif-ExtraThin.woff') format('woff'),
+        url('NocturneSerif-ExtraThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

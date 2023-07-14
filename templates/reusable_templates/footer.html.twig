@@ -1,0 +1,33 @@
+{% extends 'layout.html.twig' %}
+{% block body %}
+<!-- Footer section start -->
+<div class="footer">
+    <div class="footer-logo">
+        <img src="{{ asset("images/footer-logo.png") }}" alt="footer logo" width="325" height="67">
+    </div>
+    <div class="footer__container inner">
+        <ul>
+            <li>
+                <a href="{{ path("rules") }}">Regulament</a>
+            </li>
+            <li>
+                <a href="https://eu.mondelezinternational.com/privacy-notice?sc_lang=ro-RO&siteId=4gZ6SvGzPw9f77Ryf6Sk7R9%2f%2fHMCGT1S" target="_blank">Politica de confidențialitate</a>
+            </li>
+            <li>
+                <a href="{{ path("cookies") }}">Politica de cookie-uri</a>
+            </li>
+            <li>
+                <a href="{{ path("terms") }}">Termeni și condiții de utilizare</a>
+            </li>
+            <li>
+                <a href="https://anpc.ro" target="_blank">Protecția consumatorilor – ANPC</a>
+            </li>
+            <li>
+                <a href="https://contactus.mdlzapps.com/form?siteId=4gZ6SvGzPw9f77Ryf6Sk7R9%2f%2fHMCGT1S" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Footer section end -->
+{% endblock %}

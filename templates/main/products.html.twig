@@ -1,0 +1,37 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}TUC | Produse participante{% endblock %}
+{% block body %}
+<div class="page">
+    {% include 'reusable_templates/header.html.twig' %}
+    <main class="products-page">
+        <div class="inner" >
+            <!-- Rules content start-->
+            <div class="products">
+                <div class="products__heading common-heading">
+                    <h1>produse participante</h1>
+                    <p>Iată biscuiții TUC care te pot trimite la Neversea!</p>
+                </div>
+                <div class="products__listing">
+                    <div class="products__listing__item">
+                        <img src="{{ asset("images/products/tuc_original.png") }}" alt="product" width="499" height="200">
+                    </div>
+                    <div class="products__listing__item">
+                        <img src="{{ asset("images/products/tuc_branza.png") }}" alt="product" width="499" height="200">
+                    </div>
+                    <div class="products__listing__item">
+                        <img src="{{ asset("images/products/tuc_ceapa.png") }}" alt="product"  width="499" height="200">
+                    </div>
+
+                    <div class="products__listing__item">
+                        <img src="{{ asset("images/products/tuc_paprika.png") }}" alt="product" width="499" height="200">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rules content end-->
+        </div>
+    </main>
+    {% include 'reusable_templates/footer.html.twig' %}
+</div>
+{% endblock %}

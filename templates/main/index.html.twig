@@ -1,0 +1,86 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}TUC | TUCuCine la Neversea?{% endblock %}
+
+{% block body %}
+<div class="page">
+    {% include 'reusable_templates/header.html.twig' %}
+    <main class="homepage-wrapper">
+        <div class="inner" >
+            <!-- Rules content start-->
+            <div class="homepage">
+                <div class="homepage__image-section">
+                    <img src="{{ asset("images/homepage/people.png") }}" alt="people" width="647" height="840">
+                </div>
+                <div class="mobile-section">
+                    <div class="title">
+                        <img src="{{ asset("images/homepage/mobile-header-tickets.png") }}" alt="win" width="32" height="32">
+                        <p>Poți CÂșTIGA</p>
+                    </div>
+                    <div class="image">
+                        <img src="{{ asset("images/homepage/mobile-reward-neversea.png") }}" alt="rewards" width="406" height="184">
+                    </div>
+                </div>
+
+                <div class="homepage__steps-section">
+                    <div class="background-image"></div>
+                    <div class="section__signup-button mobile">
+                        <a href="{{ path("signUp") }}" class="register-button">ÎNSCRIE bon</a>
+                    </div>
+                    <div class="buy-section section">
+                        <div class="section__img">
+                            <img src="{{ asset("images/homepage/biscuits.png") }}" alt="biscuits" width="224" height="184">
+                        </div>
+                        <div class="section__title">
+                            <img src="{{ asset("images/homepage/buy-icon.png") }}" alt="buy" width="40" height="32">
+                            <p>CUMPĂRĂ</p>
+                        </div>
+                        <div class="section__text">
+                            <p><strong>minimum 2 pachete TUC 100g</strong> pentru tine și un prieten cu care vrei să mergi
+                                la <strong>NEVERSEA</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="signup-section section">
+                        <div class="signup-content">
+                            <div class="section__img">
+                                <img src="{{ asset("images/homepage/signup.png") }}" alt="signup" width="124" height="184">
+                            </div>
+                            <div class="section__title">
+                                <img src="{{ asset("images/homepage/signup_small.png") }}" alt="signup" width="23" height="32">
+                                <p>ÎNSCRIE </p>
+                            </div>
+                            <div class="section__text">
+                                <p>bonul fiscal</p>
+                            </div>
+                        </div>
+                        <div class="section__signup-button desktop">
+                            <a href="{{ path("signUp") }}" class="register-button">ÎNSCRIE bon</a>
+                            <p>Perioada campaniei: 20.04 – 31.05.2023</p>
+                        </div>
+                    </div>
+                    <div class="rewards-section section">
+                        <div class="section__img">
+                            <img src="{{ asset("images/homepage/rewards.png") }}" alt="rewards" width="406" height="184">
+                        </div>
+                        <div class="section__title">
+                            <img src="{{ asset("images/homepage/reward-icon.png") }}" alt="win" width="32" height="32">
+                            <p>Poți CÂșTIGA</p>
+                        </div>
+                        <div class="section__text">
+                            <p> un abonament dublu la <strong>NEVERSEA</strong></p>
+                        </div>
+                        <div class="section__signup-button mobile">
+                            <a href="{{ path("rules") }}">Regulament</a>
+                            <p>Perioada campaniei: 20.04 – 31.05.2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rules content end-->
+        </div>
+    </main>
+    {% include 'reusable_templates/footer.html.twig' %}
+</div>
+{% endblock %}

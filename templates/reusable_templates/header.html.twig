@@ -1,0 +1,36 @@
+{% extends 'layout.html.twig' %}
+{% block body %}
+<!-- Header section start -->
+<div class="header">
+    <div class="burger-menu"></div>
+    <div class="header__container inner">
+        <div class="logo">
+            <a href="/">
+                <img src="images/logo-tuc.png" alt="logo tuc" width="50" height="42">
+            </a>
+        </div>
+        <ul>
+            <li>
+                <a href="{{ path("main") }}" class="active">ACASĂ</a>
+            </li>
+            <li>
+                <a href="{{ path("signUp") }}">ÎNSCRIE-TE</a>
+            </li>
+            <li>
+                <a href="{{ path("products") }}">PRODUSE</a>
+            </li>
+            <li>
+                <a href="{{ path("winners") }}">CÂȘTIGĂTORI</a>
+            </li>
+            <li>
+                <a href="https://contactus.mdlzapps.com/form?siteId=4gZ6SvGzPw9f77Ryf6Sk7R9%2f%2fHMCGT1S" target="_blank">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="overlay"></div>
+
+
+<!-- Header section end -->
+{% endblock %}
